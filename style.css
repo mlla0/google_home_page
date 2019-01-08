@@ -1,7 +1,11 @@
 body {
 	font-family: "Arial";
 
+	margin: 0;
 }
+
+/* NAVBAR TOP */
+
 .navbar-top{
 	height: 40px;
 }
@@ -51,7 +55,7 @@ body {
 
 /* bloc central logo, search bar et boutons*/
 .bloc-centre {
-	height: 100vh;
+	height: 88vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -90,4 +94,35 @@ body {
 	color: black;
 	border: 1px solid #D3D3D3;
 	box-shadow: 0px 1px 2px #CCCCCC;
+}
+
+/* NAVBAR BOTTOM */
+
+.navbar-bottom ul {
+	position: absolute;
+	bottom: 0px;
+	width: 98.7vw;
+	background-color: #F2F2F2;
+	list-style-type: none;
+	margin: 0px;
+	padding: 2px 8px;
+	display: flex;
+	justify-content: space-between;
+	font-size: .8em;
+	border-top: 1px solid #DBDBDB;
+}
+
+.navbar-bottom li {
+	float: left;
+	padding: 10px;
+	margin: 0px 3px;
+}
+
+.navbar-bottom li a {
+	color: #7F7F7F;
+	text-decoration: none;
+}
+
+.navbar-bottom li a:hover {
+	text-decoration: underline;
 }
